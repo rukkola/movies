@@ -1,5 +1,8 @@
 require 'sinatra'
+require './lib/movie'
 
 get('/movies') do  
-	'Coming Soon...'
+	@movie = Movie.new
+	@movie.title = "Jaws"
+	erb :index
 end
