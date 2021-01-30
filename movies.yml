@@ -1,0 +1,16 @@
+---
+1: !ruby/object:Movie
+  title: Титаник
+  director: Директор
+  year: '1990'
+  id: 1
+2: !ruby/object:Movie
+  title: Маска
+  director: Директор
+  year: '2000'
+  id: 2
+3: !ruby/object:Movie
+  title: Робокоп
+  director: Руби
+  year: '1000'
+  id: 3
